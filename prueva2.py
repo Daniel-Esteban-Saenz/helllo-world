@@ -90,7 +90,6 @@ def separador_contador():
 
 
 def piedra_papel_tijera():
-    global opciones
     opciones = ["piedra", "papel", "tijera"]
     jugador1 = random.choice(opciones)
     jugador2 = random.choice(opciones)
