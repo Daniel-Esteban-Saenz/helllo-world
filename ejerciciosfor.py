@@ -65,7 +65,6 @@ def interes_compuesto():
         dinero_ganado= inversion_año
         print(inversion)
         print(inversion_año)
-        print(dinero_ganado)
         print("Dinero ganado al año es: ",dinero_ganado)
         
 interes_compuesto()
