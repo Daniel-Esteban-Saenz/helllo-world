@@ -67,4 +67,62 @@ def interes_compuesto():
         print(inversion_año)
         print("Dinero ganado al año es: ",dinero_ganado)
         
-interes_compuesto()
+#interes_compuesto()
+
+def Triangulo_astericos():
+    altura=int(input("Ingrese la altura deseada: "))
+    for i in range(1,altura+1):
+        print(" "*(altura-i), end="")
+        print("*"*(2*i-1))
+        
+#Triangulo_astericos()
+    
+    
+    
+    
+    
+    
+    
+    
+def Triangulo_aste():
+    altura=int(input("Ingrese la altura del triangulo: "))
+    for i in range(1,altura+1):
+        print(" "*(altura-i), end="")
+        print("*"*i)
+        
+            
+
+#Triangulo_aste()
+
+
+def descubrir_contraseña ():
+    contraseña = "12345678"
+    contraseña_ingresada = ""
+    intento_ingresado = int(input("Por favor ingrese un numero de intentos: "))
+    intento = 1
+    while contraseña_ingresada != contraseña:
+        contraseña_ingresada = str(input("Ingrese la contraseña: "))
+        if contraseña_ingresada != contraseña: 
+            print("La contraseña no coincide")
+        elif contraseña_ingresada == contraseña:
+            print("Contraseña correcta")
+            break
+        if intento == intento_ingresado:
+            print("Se llego al limite de intentos")
+            break
+        intento = intento + 1
+#descubrir_contraseña()
+
+def Caracteres_palabra():
+    frase=str(input("Ingrese la frase: "))
+    letra=str(input("Ingrese la letra a buscar: "))
+    contador=0
+    for i in frase:
+
+        if i == letra:
+            contador=contador+1
+    print("La letra ",letra," se repite",contador,"veces")
+    
+            
+            
+Caracteres_palabra()
